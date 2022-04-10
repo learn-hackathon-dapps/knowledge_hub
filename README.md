@@ -8,6 +8,8 @@ This is an overview and guidance to get started
 
 - [**Mission**](#mission)
 - [**Getting Started**](#getting-started)
+- [**Developer Handbook**](#developer-handbook)
+- [**Concepts**](#concepts)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <!-- markdownlint-enable MD004 -->
