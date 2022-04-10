@@ -19,3 +19,15 @@ This is an overview and guidance to get started
 ## **Getting Started**
 
 [Setup](./1_setup/README.md)
+
+## **Developer Handbook**
+
+A guide to get started for devs
+
+> [Handbook](./2_handbook/handbook.md)
+
+## **Concepts**
+
+Blockchain and Web3 Concepts
+
+> [Concepts](./3_concepts/concepts.md)
