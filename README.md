@@ -14,7 +14,7 @@ This is an overview and guidance to get started
 
 ## **Mission**
 
-> Enabling collabrotion and knowledge sharing.
+> Enabling collaboration and knowledge sharing.
 
 ## **Getting Started**
 

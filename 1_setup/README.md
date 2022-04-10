@@ -17,11 +17,13 @@ nvm install node
 node -v
 ```
 
-## **Setup React and Hardhat**
+## **Setup A React and Hardhat Project**
 
 ```bash
 mkdir starterkit
+cd starterkit
 npm init -y
-npm install --save-dev hardhat
 npx create-react-app frontend
+npm install --save-dev hardhat
+npx hardhat
 ```
