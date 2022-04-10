@@ -34,12 +34,12 @@ jobs:
           FILTER_REGEX_EXCLUDE: .*scripts/.*
   Spellcheck:
     name: Spellcheck
-      runs-on: ubuntu-latest
-      steps:
-        # The checkout step
-        - uses: actions/checkout@master
-        - uses: rojopolis/spellcheck-github-actions@0.22.1
-          name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+      # The checkout step
+      - uses: actions/checkout@master
+      - uses: rojopolis/spellcheck-github-actions@0.22.1
+        name: Spellcheck
   toc:
     name: Generate table of content
     needs: [lint, Spellcheck]
