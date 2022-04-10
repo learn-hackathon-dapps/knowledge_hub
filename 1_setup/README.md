@@ -1,3 +1,5 @@
+# **Setup**
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -6,18 +8,18 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Node
+## **Node**
 
-```
+```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm list
 nvm install node
 node -v
 ```
 
-## Setup React and Hardhat
+## **Setup React and Hardhat**
 
-```
+```bash
 mkdir starterkit
 npm init -y
 npm install --save-dev hardhat

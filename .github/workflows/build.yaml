@@ -28,7 +28,8 @@ jobs:
           VALIDATE_PYTHON_FLAKE8: false
           VALIDATE_DOCKERFILE: false
           VALIDATE_JSCPD: false
-          DEFAULT_BRANCH: main
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           FILTER_REGEX_EXCLUDE: .*scripts/.*
 
   toc:
