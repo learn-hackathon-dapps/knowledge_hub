@@ -4,18 +4,14 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm list
 nvm install node
+node -v
 ```
 
-## React
+## Setup React and Hardhat
 
 ```
-
-```
-
-## Hardhat
-
-```
+mkdir starterkit
 npm init -y
 npm install --save-dev hardhat
-
+npx create-react-app frontend
 ```
