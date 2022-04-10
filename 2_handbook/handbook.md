@@ -1,5 +1,5 @@
 # **Handbook**
 
-# **Developer Handbook**
+## **Developer Handbook**
 
 > Work in progress
