@@ -4,7 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [**Node**](#node)
-- [**Setup React and Hardhat**](#setup-react-and-hardhat)
+- [**Setup A React and Hardhat Project**](#setup-a-react-and-hardhat-project)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
