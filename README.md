@@ -17,6 +17,7 @@ This is an overview and guidance to get started
 ## **Mission**
 
 > Enabling collaboration and knowledge sharing.
+> ![Diamond Hands](https://media.giphy.com/media/mz7iww9tCUnJJeZvGN/giphy.gif)
 
 ## **Getting Started**
 
