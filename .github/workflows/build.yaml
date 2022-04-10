@@ -1,0 +1,46 @@
+name: "MAIN WORKFLOW Documentation are linted"
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+jobs:
+  lint:
+    name: Run linter
+    runs-on: ubuntu-latest
+    steps:
+      # checkout the repository
+      - name: checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Lint Code Base
+        uses: docker://ghcr.io/github/super-linter:slim-v4
+        env:
+          VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_ALL_CODEBASE: true
+          VALIDATE_PYTHON: false
+          VALIDATE_GITHUB_ACTIONS: false
+          VALIDATE_PYTHON_BLACK: false
+          VALIDATE_PYTHON_FLAKE8: false
+          VALIDATE_DOCKERFILE: false
+          VALIDATE_JSCPD: false
+          DEFAULT_BRANCH: main
+          FILTER_REGEX_EXCLUDE: .*scripts/.*
+
+  toc:
+    name: Generate table of content
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: technote-space/toc-generator@f46c57a77fc06323588e08fa5bd84004440015fa
+        with:
+          COMMIT_MESSAGE: "[Automated] Update TOC"
+          TOC_TITLE: ""
+          TARGET_PATHS: .
