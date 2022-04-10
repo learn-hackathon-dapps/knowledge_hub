@@ -18,7 +18,7 @@
 
 ## **Blockchains**
 
-- Bitcoin, Ethereum, Solana, Polygon, Terra, Polkadot, Cardano and etc
+- Bitcoin, Ethereum, Solana, Polygon, Binance Smart Chain, Terra, Polkadot, Cardano and etc
 
 ## **Wallets**
 
