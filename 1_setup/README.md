@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Node](#node)
+- [Setup React and Hardhat](#setup-react-and-hardhat)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Node
 
 ```
