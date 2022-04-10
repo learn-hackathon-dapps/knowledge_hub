@@ -1,1 +1,14 @@
 xml
+devs
+Blockchain
+Blockchains
+Stablecoins
+DAOs
+DEXs
+NFTs
+Binance
+Cardano
+Ethereum
+Polkadot
+Solana
+crypto
