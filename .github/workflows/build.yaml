@@ -1,3 +1,4 @@
+---
 name: "MAIN WORKFLOW Documentation are linted"
 on:
   workflow_dispatch:

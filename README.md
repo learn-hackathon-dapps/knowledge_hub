@@ -6,13 +6,13 @@ This is an overview and guidance to get started
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [** Mission **](#-mission-)
+- [**Mission**](#-mission-)
 - [**Getting Started**](#getting-started)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <!-- markdownlint-enable MD004 -->
 
-## ** Mission **
+## **Mission**
 
 > Enabling collabrotion and knowledge sharing.
 
