@@ -89,7 +89,7 @@ jobs:
           internal_state_directory: /tmp/data
   toc:
     name: Generate table of content
-    needs: [lint, spelling, comment]
+    needs: [lint, spelling]
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
