@@ -34,7 +34,7 @@ jobs:
           FILTER_REGEX_EXCLUDE: .*scripts/.*
   spelling:
     name: Spell checking
-    permission:
+    permissions:
       contents: read
       pull-requests: read
     runs-on: ubuntu-latest
