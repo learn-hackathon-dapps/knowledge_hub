@@ -3,7 +3,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [**Node**](#node)
+- [**Setup Node**](#setup-node)
 - [**Setup A React and Hardhat Project**](#setup-a-react-and-hardhat-project)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
