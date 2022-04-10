@@ -3,6 +3,7 @@ devs
 Blockchain
 Blockchains
 Stablecoins
+stablecoins
 DAOs
 DEXs
 NFTs
