@@ -19,3 +19,9 @@ nvm
 README
 stablecoins
 starterkit
+Binance
+Cardano
+Ethereum
+Polkadot
+Solana
+crypto
