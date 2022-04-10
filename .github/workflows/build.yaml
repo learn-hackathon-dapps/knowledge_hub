@@ -35,6 +35,7 @@ jobs:
 
   toc:
     name: Generate table of content
+    needs: [lint]
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
