@@ -21,7 +21,7 @@ This is an overview and guidance to get started
 
 ## **Getting Started**
 
-Setup local environment
+Setup local environmentt.
 
 > [Setup](./1_setup/README.md)
 

@@ -32,10 +32,17 @@ jobs:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           FILTER_REGEX_EXCLUDE: .*scripts/.*
-
+  Spellcheck:
+    name: Spellcheck
+      runs-on: ubuntu-latest
+      steps:
+      # The checkout step
+      - uses: actions/checkout@master
+      - uses: rojopolis/spellcheck-github-actions@0.22.1
+        name: Spellcheck
   toc:
     name: Generate table of content
-    needs: [lint]
+    needs: [lint, Spellcheck]
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
