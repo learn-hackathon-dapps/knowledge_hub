@@ -25,5 +25,8 @@ cd starterkit
 npm init -y
 npx create-react-app frontend
 npm install --save-dev hardhat
+npm install @openzeppelin/contracts
+npm i -D @nomiclabs/hardhat-etherscan
+npm i -D dotenv
 npx hardhat
 ```
