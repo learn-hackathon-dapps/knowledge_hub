@@ -30,3 +30,17 @@ npm i -D @nomiclabs/hardhat-etherscan
 npm i -D dotenv
 npx hardhat
 ```
+
+## **Debug**
+
+Run the following command in the first Terminal to start a blockchain node
+
+```bash
+npx hardhat node
+```
+
+Run the following command in the second terminal
+
+```
+npx hardhat console --network localhost
+```
