@@ -96,7 +96,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: technote-space/toc-generator@f46c57a77fc06323588e08fa5bd84004440015fa
+      - uses: technote-space/toc-generator@0cf8aee73a9b2ce23baf838eadc93f2ca1e4b0ea
         with:
           COMMIT_MESSAGE: "[Automated] Update TOC"
           TOC_TITLE: ""
